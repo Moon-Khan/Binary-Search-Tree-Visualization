@@ -1,0 +1,196 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30138.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0073D1C0 -il C:\\Users\\Ali\\AppData\\Local\\Temp\\_CL_ebde2301ast -typedil -f bgiout.cxx -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930138 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -D_MBCS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -FoDebug\\bgiout.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory F:\\study\\Semester 3\\Data Structure Lab\\Data Lab Project\\bgi -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/study/Semester 3/Data Structure Lab/Data Lab Project/bgi/winthread.cxx"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "072d445dda95984b9a7b3de1503baef8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/winbgi.h"
+          },
+          "hashes": {
+            "md5": "29c147f0decee3b00122371eed5927b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/winbgitypes.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a6cf876638b8e51f121dd600234afc37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/study/Semester 3/Data Structure Lab/Data Lab Project/bgi/winbgi.cxx"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d1e14eeb9aec8f93809e20570cb23d1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/text.cxx"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "9715a4db232ad615452602b9e30fe388"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/study/Semester 3/Data Structure Lab/Data Lab Project/bgi/main.cxx"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d18dcbdaf4ff584c8103435566911778"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/graphics.h"
+          },
+          "hashes": {
+            "md5": "29c147f0decee3b00122371eed5927b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/palette.cxx"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a948c4b3f7f62fb774ca8fc221121a60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/mouse.cxx"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "9d7a39ae9e808b669b1541626da9a5db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/study/Semester 3/Data Structure Lab/Data Lab Project/bgi/misc.cxx"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "6870efeedcbced2e94a16252a4625959"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/study/Semester 3/Data Structure Lab/Data Lab Project/bgi/file.cxx"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "98b1795b14e4792c9735fe1974df6dd5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/dibutil.h"
+          },
+          "hashes": {
+            "md5": "27883085c771f6eb99f72ae890d4639d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/dibapi.h"
+          },
+          "hashes": {
+            "md5": "474088725ffa79ca275369ce03088de4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/study/Semester 3/Data Structure Lab/Data Lab Project/bgi/drawing.cxx"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "51a90a2837ae6ea928e7b06b94225c50"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/study/Semester 3/Data Structure Lab/Data Lab Project/bgi/dibutil.cxx"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5fd73de1e495a3f9a3eb754f6158a0c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/study/semester 3/data structure lab/data lab project/bgi/bgiout.cxx"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "5112f6cdff23969e9076b2bd5016d6ec"
+          }
+        }
+      ]
+    }
+  ]
+}
